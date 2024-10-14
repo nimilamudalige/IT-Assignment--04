@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    background-color: blueviolet;
+    width: 220px;
+    height: 60px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    box-shadow: 0px 3px 4px 3px rgba(42, 42, 42, 0.7);
+    position: relative;
+    left: -180px;
+    transition: transform 1s ease-in-out;
+   
+  }
+
+  p{
+    margin-left: 8px;
+  }
+
+  .menu:hover {
+    cursor: pointer;
+    transform: translateX(170px);
+  }
